@@ -15,3 +15,8 @@
 
  -- how to pull changes from another branch 
  https://graphite.dev/guides/how-to-pull-from-another-branch-in-git
+
+--check pointers
+
+ git remote --v
+ git branch -all
