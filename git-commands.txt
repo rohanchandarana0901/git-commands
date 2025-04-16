@@ -3,7 +3,6 @@
  git stash pop
  git fetch origin
  git log main --name-only
- git log main --printonly
  git status
  git merge --squash feature
  git revert 0479c48   
