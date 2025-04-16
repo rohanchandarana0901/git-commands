@@ -1,0 +1,18 @@
+ git log -oneline 
+ git branch -vv
+ git stash pop
+ git fetch origin
+ git log main --name-only
+ git log main --printonly
+ git status
+ git merge --squash feature
+ git revert 0479c48   
+ git cherry-pick 89ef444  
+
+ git clone <repository>
+ git checkout -b feature origin/feature
+ 
+
+
+ -- how to pull changes from another branch 
+ https://graphite.dev/guides/how-to-pull-from-another-branch-in-git
